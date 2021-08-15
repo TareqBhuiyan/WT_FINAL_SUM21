@@ -1,5 +1,5 @@
 <?php
-include 'Model/db_config.php';
+include 'Model/dbConfig.php';
 $name="";
 $err_name="";
 
@@ -7,7 +7,7 @@ $has_error=false;
 
 $err_db_error="";
 
-if(isset($_POST["add_cat"]))
+if(isset($_POST["addcat"]))
 {
 	if(empty($_POST["name"]))
 	{
@@ -22,7 +22,7 @@ if(isset($_POST["add_cat"]))
 		$rs=insertCategory($_POST["name"]);
 		if($rs===true)
 		{
-			 header("Location: All_Category.php");
+			 header("Location: AllCategory.php");
 			
 		}$err_db_error= $rs;
 		

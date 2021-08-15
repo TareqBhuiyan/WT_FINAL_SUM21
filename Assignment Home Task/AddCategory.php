@@ -1,8 +1,10 @@
 <html>
 	<head><?php 
 	include 'Dashboard.php';
+	
 	include 'Controller/CategoryController.php';
 	?>
+	
 	<title>Add Category</title></head>
 	<body>
 		<fieldset><h1><b>Add Category</h1>

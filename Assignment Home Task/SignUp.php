@@ -1,11 +1,3 @@
-<?php
-
-include 'Controller/temp1.php';
-
-?>
-
-
-
 <html>
 	<head><title>Sign Up</title></head>
 	<body>

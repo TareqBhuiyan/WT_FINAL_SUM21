@@ -5,7 +5,7 @@
 	$db_name="wt_sum21_b";
 
 
-function execute($query)//responcible for running insert,update,delete
+function execute($query)      //responsible for running insert,update,delete
 {
 	global $db_server,$db_uname,$db_pass,$db_name;
 	$conn=mysqli_connect($db_server,$db_uname,$db_pass,$db_name);
@@ -19,7 +19,7 @@ function execute($query)//responcible for running insert,update,delete
 	}
 }
 
-function get($query)//responcible for running select
+function get($query)                    //responsible for running select
 {
 	global $db_server,$db_uname,$db_pass,$db_name;
 	$conn=mysqli_connect($db_server,$db_uname,$db_pass,$db_name);
